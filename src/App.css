@@ -5,6 +5,7 @@
   justify-content: space-between;
   height: 100vh;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
 }
 
 .header {
@@ -12,9 +13,39 @@
   justify-content: space-between;
   align-items: center;
   height: 3rem;
-  background-image: linear-gradient(to bottom, #000 0%, #000 80%, #c8c8c8 100%);
+  background-image: linear-gradient(to bottom, #c8c8c8 0%, #000 20%, #000 80%, #c8c8c8 100%);
   color: white;
   padding: 10px;
+  border: 1px solid #000;
+  /* position: absolute;
+  top: 0;
+  left: 0;
+  right: 0; */
+}
+
+.name-logo {
+  font-size: 2rem;
+}
+
+.text1 {
+  font-family: "Cinzel", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  cursor: default;
+}
+
+.text2 {
+  font-family: "Dosis", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+  color: #c8c8c8;
+}
+
+.text-footer, .subtext-footer {
+  cursor: default;
 }
 
 .header__nav {
@@ -27,6 +58,18 @@
 .nav-link {
   text-decoration: none;
   color: white;
+  font-size: 1.5rem;
+  transition-duration: 0.5s;
+  position: absolute;
+  margin: auto 0;
+}
+
+#projects {
+  left: 15%;
+}
+
+.nav-link:hover {
+  font-weight: 600;
 }
 
 .main {
@@ -39,8 +82,9 @@
   justify-content: space-between;
   align-items: center;
   background-image: linear-gradient(to bottom, #c8c8c8 0%, #000 20%, #000 100%);
+  border: 1px solid #000;
   height: 2rem;
-  padding: 5px;
+  padding: 10px;
   color: white;
 }
 
