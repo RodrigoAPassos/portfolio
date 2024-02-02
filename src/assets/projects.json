@@ -1,0 +1,70 @@
+{
+    "projects": [
+        {
+            "projectTitle": "That's My: To-Do",
+            "imgPath": "",
+            "info": {
+                "en": {
+                    "description": "Project of a To-do List app as a part of the JavaScript course."
+                },
+                "pt-BR": {
+                    "description": "Projeto de uma página no estilo Lista de Tarefas com diversas funcionalidades para o curso de JavaScript."
+                }
+            },
+            "techs": ["js", "css", "html"]
+        },
+        {
+            "projectTitle": "Memory Game of Pokemon",
+            "imgPath": "",
+            "info": {
+                "en": {
+                    "description": "Memory Game of Pokemon, project made with PokeAPI for the React Course."
+                },
+                "pt-BR": {
+                    "description": "Jogo da memória de pokemon. Projeto feito para o curso de React, utilizando PokeAPI."
+                }
+            },
+            "techs": ["js", "css", "html", "react"]
+        },
+        {
+            "projectTitle": "Memory Game - Brasileirão 2023",
+            "imgPath": "",
+            "info": {
+                "en": {
+                    "description": "Memory Game - Brasileirão 2023, project made for the React Course."
+                },
+                "pt-BR": {
+                    "description": "Jogo da memória temático com os clubes do Brasileirão 2023. Projeto feito para o curso de React."
+                }
+            },
+            "techs": ["js", "css", "html", "react"]
+        },
+        {
+            "projectTitle": "Battleship Game",
+            "imgPath": "",
+            "info": {
+                "en": {
+                    "description": "Battleship Game. Project made for JavaScript Course."
+                },
+                "pt-BR": {
+                    "description": "Jogo de batalha naval. Projeto feito para o curso de JavaScript."
+                }
+            },
+            "techs": ["js", "css", "html"]
+        },
+        {
+            "projectTitle": "My Library",
+            "imgPath": "",
+            "info": {
+                "en": {
+                    "description": "Small library app. Project made for the JavaScript Course."
+                },
+                "pt-BR": {
+                    "description": "Aplicativo biblioteca. Projeto feito para o curso de JavaScript."
+                }
+            },
+            "techs": ["js", "css", "html"]
+        }
+
+    ]
+}

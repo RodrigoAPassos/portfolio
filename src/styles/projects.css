@@ -1,0 +1,8 @@
+.projects-container {
+    overflow-y: auto;
+    height: 80vh;
+}
+
+.project-card {
+    padding: 10px 0;
+}

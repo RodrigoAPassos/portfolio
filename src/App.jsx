@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import './App.css'
+import '../src/App.css';
 import { Routes, Route, Outlet, Link, useLocation } from "react-router-dom";
 
 function App(props) {
@@ -9,8 +9,10 @@ function App(props) {
   useEffect(() => {
     let page = location.pathname;
     page === "/projects" ? document.getElementById(page).style.left = '47%': document.getElementById(page).style.left = '47%';
+    page === "/projects" ? document.getElementById(page).style.fontWeight = '700': document.getElementById(page).style.fontWeight = '700';
     return () => {
       page === "/projects" ? document.getElementById(page).style.left = '90%': document.getElementById(page).style.left = '90%';
+      page === "/projects" ? document.getElementById(page).style.fontWeight = '400': document.getElementById(page).style.fontWeight = '400';
     };
 
   }, [location.pathname]);
