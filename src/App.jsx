@@ -6,17 +6,6 @@ function App(props) {
 
   const location = useLocation();
 
-  useEffect(() => {
-    let page = location.pathname;
-    page === "/projects" ? document.getElementById(page).style.left = '47%': document.getElementById(page).style.left = '47%';
-    page === "/projects" ? document.getElementById(page).style.fontWeight = '700': document.getElementById(page).style.fontWeight = '700';
-    return () => {
-      page === "/projects" ? document.getElementById(page).style.left = '90%': document.getElementById(page).style.left = '90%';
-      page === "/projects" ? document.getElementById(page).style.fontWeight = '400': document.getElementById(page).style.fontWeight = '400';
-    };
-
-  }, [location.pathname]);
-
   return (
     <>
       <header className='header'>
@@ -24,8 +13,8 @@ function App(props) {
           <span className='name-logo text1'>Rodrigo Passos</span>
         </div>
         <nav className='header__nav'>
-          <Link to="/projects" id='/projects' className='nav-link text2'>{props.language === "pt-BR" ? <span>Projetos</span> : <span>Projects</span>}</Link>
-          <Link to="/details" id='/details' className='nav-link text2'>{props.language === "pt-BR" ? <span>Contato</span> : <span>Details</span>}</Link>
+          <Link to="/projects" className={location.pathname === "/projects" ? "nav-link reading text2" : "nav-link not-reading text2"}>{props.language === "pt-BR" ? <span>Projetos</span> : <span>Projects</span>}</Link>
+          <Link to="/details" id='/details' className={location.pathname === "/details" ? "nav-link reading text2" : "nav-link not-reading text2"}>{props.language === "pt-BR" ? <span>Contato</span> : <span>Details</span>}</Link>
         </nav>
       </header>
       <main className='main'>

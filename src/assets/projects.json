@@ -2,7 +2,7 @@
     "projects": [
         {
             "projectTitle": "That's My: To-Do",
-            "imgPath": "",
+            "imgName": "thatsMy-1440.png",
             "info": {
                 "en": {
                     "description": "Project of a To-do List app as a part of the JavaScript course."
@@ -11,11 +11,13 @@
                     "description": "Projeto de uma página no estilo Lista de Tarefas com diversas funcionalidades para o curso de JavaScript."
                 }
             },
-            "techs": ["js", "css", "html"]
+            "techs": ["js", "css", "html"],
+            "ghLink": "https://github.com/RodrigoAPassos/odin-toDo-list",
+            "previewLink": "https://rodrigoapassos.github.io/odin-toDo-list/"
         },
         {
             "projectTitle": "Memory Game of Pokemon",
-            "imgPath": "",
+            "imgName": "pokemon-memory-1440.png",
             "info": {
                 "en": {
                     "description": "Memory Game of Pokemon, project made with PokeAPI for the React Course."
@@ -24,11 +26,13 @@
                     "description": "Jogo da memória de pokemon. Projeto feito para o curso de React, utilizando PokeAPI."
                 }
             },
-            "techs": ["js", "css", "html", "react"]
+            "techs": ["js", "css", "html", "react", "API"],
+            "ghLink": "https://github.com/RodrigoAPassos/pokemon-memory-game",
+            "previewLink": "https://rodrigoapassos.github.io/pokemon-memory-game/"
         },
         {
             "projectTitle": "Memory Game - Brasileirão 2023",
-            "imgPath": "",
+            "imgName": "memory-brasileirao-1440.png",
             "info": {
                 "en": {
                     "description": "Memory Game - Brasileirão 2023, project made for the React Course."
@@ -37,11 +41,13 @@
                     "description": "Jogo da memória temático com os clubes do Brasileirão 2023. Projeto feito para o curso de React."
                 }
             },
-            "techs": ["js", "css", "html", "react"]
+            "techs": ["js", "css", "html", "react"],
+            "ghLink": "https://github.com/RodrigoAPassos/memory-game",
+            "previewLink": "https://rodrigoapassos.github.io/memory-game/"
         },
         {
             "projectTitle": "Battleship Game",
-            "imgPath": "",
+            "imgName": "battleship-1440.png",
             "info": {
                 "en": {
                     "description": "Battleship Game. Project made for JavaScript Course."
@@ -50,20 +56,24 @@
                     "description": "Jogo de batalha naval. Projeto feito para o curso de JavaScript."
                 }
             },
-            "techs": ["js", "css", "html"]
+            "techs": ["js", "css", "html"],
+            "ghLink": "https://github.com/RodrigoAPassos/odin-battleship",
+            "previewLink": "https://rodrigoapassos.github.io/odin-battleship/"
         },
         {
-            "projectTitle": "My Library",
-            "imgPath": "",
+            "projectTitle": "Quick Weather App",
+            "imgName": "weatherApp-1440.png",
             "info": {
                 "en": {
-                    "description": "Small library app. Project made for the JavaScript Course."
+                    "description": "Weather app. Project made for the JavaScript Course using weatherAPI."
                 },
                 "pt-BR": {
-                    "description": "Aplicativo biblioteca. Projeto feito para o curso de JavaScript."
+                    "description": "Aplicativo de previsão do tempo. Projeto feito para o curso de JavaScript usando WeatherAPI."
                 }
             },
-            "techs": ["js", "css", "html"]
+            "techs": ["js", "css", "html", "API"],
+            "ghLink": "https://github.com/RodrigoAPassos/odin-weather",
+            "previewLink": "https://rodrigoapassos.github.io/odin-weather/"
         }
 
     ]
