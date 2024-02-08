@@ -3,16 +3,23 @@ import projectData from "../assets/projects.json";
 import "../styles/projects.css";
 
 const Projects = (props) => {
+
   return (
     <div className="projects-container">
     {projectData.projects.map((project, index) => {
+      const imgPath = project.imgName;
       return (
-        <div key={index} className='project-card'>
-          <a href={project.previewLink} target='_blank' className='project-title'>{project.projectTitle}</a>
-          <div className="project-card__info">
-            <img src={"../src/assets/"+project.imgName} alt={project.projectTitle + " image"}></img>
-            <div className="desc-info">
-              {props.language === "pt-BR" ? <a href={project.ghLink} target='_blank'>{project.info['pt-BR'].description}</a> : <a href={project.ghLink} target='_blank'>{project.info.en.description}</a>}
+        /* Parallax Test */
+        <div key={index} className="project-card">
+          <div className="project-bg" style={{
+          backgroundImage: `url(../src/assets/${imgPath})`,
+        }}>
+            <div className="title">
+              <a href={project.previewLink} target='_blank' className='project-title' rel="noreferrer">{
+                props.language === "pt-BR" ? project.info['pt-BR'].projectTitle : project.info.en.projectTitle}</a></div>
+          </div>
+          <div className="desc-info">
+              {props.language === "pt-BR" ? <a href={project.ghLink} target='_blank' rel="noreferrer">{project.info['pt-BR'].description}</a> : <a href={project.ghLink} target='_blank' rel="noreferrer">{project.info.en.description}</a>}
               <div className="tech-container">
                 {project.techs.map((tech, index2) => {
                   return (
@@ -21,8 +28,9 @@ const Projects = (props) => {
                 })}
               </div>
             </div>
-          </div>
         </div>
+
+        
       )
     })}
     </div>

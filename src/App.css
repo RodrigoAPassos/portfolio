@@ -5,6 +5,7 @@
   justify-content: space-between;
   height: 100vh;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  overflow: hidden;
 }
 
 .header {
@@ -86,14 +87,26 @@
 
 .footer {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  flex-direction: column;
+  justify-content: center;
   background-image: linear-gradient(to bottom, #c8c8c8 0%, #000 20%, #000 100%);
   border: 1px solid #000;
   height: 2rem;
   padding: 10px;
   color: white;
   font-size: 0.8rem;
+}
+
+.footer-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+}
+
+.language-entry {
+  position: relative;
+  top: 50%;
 }
 
 .top-link {

@@ -7,16 +7,20 @@ import Projects from "./Projects";
 const Router = () => {
 
     const [language, setLanguage] = useState("pt-BR");
+
+    const handleLanguage = (lang) => {
+      setLanguage(lang);
+    }
     
     const router = createBrowserRouter([
     {
       path: "/",
-      element: <App language = {language} />,
+      element: <App language = {language} handleLanguage = {handleLanguage} />,
       children: [
         { index: true, path: "/projects", element: <Projects language = {language}/> },
         { path: "/details", element: <Contact language = {language} /> },
       ],
-      errorElement: <Navigate to="/projects" />,
+      /* errorElement: <Navigate to="/projects" />, */
     },
     /* {
       path: "/contact",
