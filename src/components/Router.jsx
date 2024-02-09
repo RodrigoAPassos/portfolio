@@ -23,7 +23,7 @@ const Router = () => {
       ],
       /* errorElement: <Navigate to="/projects" />, */
     },
-  ]);
+  ],{ basename: import.meta.env.BASE_URL });
 
   return <RouterProvider router={router} />;
 };
