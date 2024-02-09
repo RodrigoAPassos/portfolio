@@ -1,4 +1,4 @@
-import projectData from "../assets/projects.json";
+import projectData from "../../public/projects.json";
 import "../styles/projects.css";
 
 const Projects = (props) => {
