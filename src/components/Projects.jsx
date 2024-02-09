@@ -1,4 +1,4 @@
-import projectData from "../../public/projects.json";
+import projectData from "../assets/projects.json";
 import "../styles/projects.css";
 
 const Projects = (props) => {
@@ -11,7 +11,7 @@ const Projects = (props) => {
         /* Parallax Test */
         <div key={index} className="project-card">
           <div className="project-bg" style={{
-          backgroundImage: `url(../public/${imgPath})`,
+          backgroundImage: `url(../src/assets/${imgPath})`,
         }}>
             <div className="title">
               <a href={project.previewLink} target='_blank' className='project-title' rel="noreferrer" title={props.language === "pt-BR" ? 'Clique para testar' : 'Click to preview'}>{
@@ -28,12 +28,10 @@ const Projects = (props) => {
               </div>
             </div>
         </div>
-
         
       )
     })}
     </div>
   )
 }
-
 export default Projects
