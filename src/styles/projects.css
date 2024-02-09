@@ -1,8 +1,7 @@
 
 
 .projects-container {
-    overflow-y: auto;
-    height: 80vh;
+    height: 100%;
 }
 
 .project-bg {
@@ -22,6 +21,7 @@
     width: 100%;
     text-align: center;
     color: #fff;
+    line-height: 400%;
 }
 
 .project-title {

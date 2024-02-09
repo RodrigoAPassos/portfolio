@@ -17,15 +17,12 @@ const Router = () => {
       path: "/",
       element: <App language = {language} handleLanguage = {handleLanguage} />,
       children: [
-        { index: true, path: "/projects", element: <Projects language = {language}/> },
+        { index: true, element: <Projects language = {language}/> },
         { path: "/details", element: <Contact language = {language} /> },
+        { path: "*", element: <Navigate to={"/projects"} />},
       ],
       /* errorElement: <Navigate to="/projects" />, */
     },
-    /* {
-      path: "/contact",
-      element: <Contact />,
-    }, */
   ]);
 
   return <RouterProvider router={router} />;

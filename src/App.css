@@ -12,7 +12,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 9vh;
+  height: 10vh;
   background-image: linear-gradient(to bottom, #c8c8c8 0%, #000 20%, #000 80%, #c8c8c8 100%);
   color: white;
   padding: 10px;
@@ -23,14 +23,14 @@
   left: 47%;
   font-weight: 700;
   font-size: 1.5rem;
-  top: 1.5rem;
+  top: 2rem;
 }
 
 .nav-link.not-reading {
   left: 90%;
   font-weight: 400;
   font-size: 1rem;
-  top: 2rem;
+  top: 2.5rem;
 }
 
 .name-logo {
@@ -82,7 +82,8 @@
 }
 
 .main {
-  flex: 1;
+  height: 85vh;
+  overflow-y: auto;
 }
 
 .footer {
@@ -91,7 +92,7 @@
   justify-content: center;
   background-image: linear-gradient(to bottom, #c8c8c8 0%, #000 20%, #000 100%);
   border: 1px solid #000;
-  height: 2rem;
+  height: 5vh;
   padding: 10px;
   color: white;
   font-size: 0.8rem;

@@ -1,4 +1,3 @@
-import React from 'react';
 import "../styles/contact.css"
 
 const Contact = (props) => {
@@ -16,8 +15,8 @@ const Contact = (props) => {
         </div>
       </div>
       <div className="links-info">
-        <a href='https://www.linkedin.com/in/rodrigo-passos-244a1a113/' className="fa-brands fa-linkedin fa-xl linkedin-profile" target='_blank' rel="noreferrer"></a>
-        <a href="https://github.com/RodrigoAPassos" className="fa-brands fa-square-github fa-xl gh-profile" target='_blank' rel="noreferrer"></a>
+        <a href='https://www.linkedin.com/in/rodrigo-passos-244a1a113/' className="fa-brands fa-linkedin fa-xl linkedin-profile" target='_blank' rel="noreferrer" title={props.language === "pt-BR" ? 'Ir para LinkedIn' : 'Go to LinkedIn'}></a>
+        <a href="https://github.com/RodrigoAPassos" className="fa-brands fa-square-github fa-xl gh-profile" target='_blank' rel="noreferrer" title={props.language === "pt-BR" ? 'Ir para GitHub' : 'Go to GitHub'}></a>
       </div>
       
     </div>
