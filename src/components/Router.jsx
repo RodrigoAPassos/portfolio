@@ -19,7 +19,7 @@ const Router = () => {
       children: [
         { index: true, element: <Projects language = {language}/> },
         { path: "/details", element: <Contact language = {language} /> },
-        { path: "*", element: <Navigate to={"/projects"} />},
+        { path: "*", element: <Navigate to={"/"} />},
       ],
       /* errorElement: <Navigate to="/projects" />, */
     },
