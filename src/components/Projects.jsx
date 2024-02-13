@@ -11,7 +11,7 @@ const Projects = (props) => {
         /* Parallax Test */
         <div key={index} className="project-card">
           <div className="project-bg" style={{
-          backgroundImage: `url(./portfolio/${imgPath})`,
+          backgroundImage: `url(../portfolio/${imgPath})`,
         }}>
             <div className="title">
               <a href={project.previewLink} target='_blank' className='project-title' rel="noreferrer" title={props.language === "pt-BR" ? 'Clique para testar' : 'Click to preview'}>{
