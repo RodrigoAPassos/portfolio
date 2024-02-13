@@ -7,7 +7,7 @@ const Contact = (props) => {
       <div className="details-info">
         <div className="phone-info">
           <i className="fa-solid fa-phone fa-xl"></i>
-          <span className='phone-number'>+55 (011) 9 8534-9638</span>
+          <span className='phone-number'>+55 (11) 9 8534-9638</span>
         </div>
         <div className="email-info">
           <i className="fa-solid fa-envelope fa-xl"></i>
