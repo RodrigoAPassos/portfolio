@@ -1,0 +1,165 @@
+{
+    "projects": [
+        {
+            "imgName": "thatsMy-1440.png",
+            "info": {
+                "en": {
+                    "projectTitle": "That's My: To-Do",
+                    "description": "Project of a To-do List app in which you can create, edit, mark as completed or delete tasks. Create projects to organize those tasks. Filter and sort your tasks. Have all data saved to local storage. Made as part of the JavaScript course."
+                },
+                "pt-BR": {
+                    "projectTitle": "Esse é Meu: To-Do",
+                    "description": "Projeto de um aplicativo no estilo de Lista de Tarefas no qual você pode criar, editar, marcar como concluídas ou excluir tarefas. Crie projetos para organizar essas tarefas. Filtre e classifique suas tarefas. Tenha todos os dados salvos em armazenamento local. Feito como parte do curso de JavaScript."
+                }
+            },
+            "techs": ["js", "css", "html"],
+            "ghLink": "https://github.com/RodrigoAPassos/odin-toDo-list",
+            "previewLink": "https://rodrigoapassos.github.io/odin-toDo-list/"
+        },
+        {
+            "imgName": "pokemon-memory-1440.png",
+            "info": {
+                "en": {
+                    "projectTitle": "Memory Game of Pokemon",
+                    "description": "Memory Game of Pokemon, get points by clicking in all pokemons with no repeating! The number of pokemons will increase when you finish, then do it again to a maximun of 50 points! Project made with usage of PokeAPI for the React Course."
+                },
+                "pt-BR": {
+                    "projectTitle": "Jogo da Memória - Pokemon",
+                    "description": "Jogo da Memória de Pokémon, ganhe pontos clicando em todos os pokémons sem repetir! O número de pokémons aumentará quando você terminar, então faça novamente até um máximo de 50 pontos! Projeto feito com PokeAPI para o Curso React."
+                }
+            },
+            "techs": ["js", "css", "html", "react", "API"],
+            "ghLink": "https://github.com/RodrigoAPassos/pokemon-memory-game",
+            "previewLink": "https://rodrigoapassos.github.io/pokemon-memory-game/"
+        },
+        {
+            "imgName": "memory-brasileirao-1440.png",
+            "info": {
+                "en": {
+                    "projectTitle": "Memory Game - Brasileirão 2023",
+                    "description": "Memory Game - Brasileirão 2023, get points by clicking in all teams with no repeating! The number of teams will increase when you finish, then do it again to a maximun of 50 points! Project made for the React Course."
+                },
+                "pt-BR": {
+                    "projectTitle": "Jogo da Memória - Brasileirão 2023",
+                    "description": "Jogo da Memória - Brasileirão 2023, ganhe pontos clicando em todos os times sem repetir! O número de equipes aumentará quando você terminar, então faça novamente até um máximo 50 pontos! Projeto feito para o Curso React."
+                }
+            },
+            "techs": ["js", "css", "html", "react"],
+            "ghLink": "https://github.com/RodrigoAPassos/memory-game",
+            "previewLink": "https://rodrigoapassos.github.io/memory-game/"
+        },
+        {
+            "imgName": "battleship-1440.png",
+            "info": {
+                "en": {
+                    "projectTitle": "Battleship Game",
+                    "description": "Classic Battleship Game, play against basic AI or against another player. Project made for JavaScript Course."
+                },
+                "pt-BR": {
+                    "projectTitle": "Batalha Naval",
+                    "description": "Clássico jogo de batalha naval, jogue contra IA ou contra outro jogador. Projeto feito para o curso de JavaScript."
+                }
+            },
+            "techs": ["js", "css", "html"],
+            "ghLink": "https://github.com/RodrigoAPassos/odin-battleship",
+            "previewLink": "https://rodrigoapassos.github.io/odin-battleship/"
+        },
+        {
+            "imgName": "weatherApp-1440.png",
+            "info": {
+                "en": {
+                    "projectTitle": "Quick Weather App",
+                    "description": "Search and discover the current weather of more than 200000 cities! Discover maximun and minimum temperatures for the day. Choose between °C and °F. UI varies according to temperature in this Weather app! Project made for the JavaScript Course using weatherAPI."
+                },
+                "pt-BR": {
+                    "projectTitle": "Clima Rápido App",
+                    "description": "Pesquise e descubra o clima atual de mais de 200.000 cidades! Descubra as temperaturas máximas e mínimas do dia. Escolha entre °C e °F. A interface do usuário varia de acordo com a temperatura neste aplicativo de clima! Projeto feito para o Curso JavaScript utilizando weatherAPI."
+                }
+            },
+            "techs": ["js", "css", "html", "API"],
+            "ghLink": "https://github.com/RodrigoAPassos/odin-weather",
+            "previewLink": "https://rodrigoapassos.github.io/odin-weather/"
+        },
+        {
+            "imgName": "cv-application.png",
+            "info": {
+                "en": {
+                    "projectTitle": "CV Application",
+                    "description": "Generate a basic CV by entering your information with educational and practical experience."
+                },
+                "pt-BR": {
+                    "projectTitle": "App gerador de currículo",
+                    "description": "Gere um currículo básico inserindo suas informações com experiência educacional e prática."
+                }
+            },
+            "techs": ["js", "css", "html", "react"],
+            "ghLink": "https://github.com/RodrigoAPassos/cv-project",
+            "previewLink": "https://rodrigoapassos.github.io/cv-project/"
+        },
+        {
+            "imgName": "etch-a-sketch.png",
+            "info": {
+                "en": {
+                    "projectTitle": "Notes in the sky: Etch-a-Sketch",
+                    "description": "Create your pixel art! Define the grid size and paint with black, rainbow or shading pen. Project made for JavaScript Course."
+                },
+                "pt-BR": {
+                    "projectTitle": "Notas no céu: Etch-a-Sketch",
+                    "description": "Crie sua pixel art! Defina o tamanho da grade e pinte com caneta preta, arco-íris ou sombreamento. Projeto feito para curso de JavaScript."
+                }
+            },
+            "techs": ["js", "css", "html"],
+            "ghLink": "https://github.com/RodrigoAPassos/etch-a-sketch",
+            "previewLink": "https://rodrigoapassos.github.io/etch-a-sketch/"
+        },
+        {
+            "imgName": "tictactoe.png",
+            "info": {
+                "en": {
+                    "projectTitle": "Tic-Tac-Toe",
+                    "description": "Classic Tic-Tac-Toe game with player vs player or player vs computer(easy) options. Project made for JavaScript Course."
+                },
+                "pt-BR": {
+                    "projectTitle": "Jogo da Velha",
+                    "description": "Clássico jogo da velha com opções jogador contra jogador ou jogador contra computador (fácil). Projeto feito para curso de JavaScript."
+                }
+            },
+            "techs": ["js", "css", "html"],
+            "ghLink": "https://github.com/RodrigoAPassos/odin-ticTacToe",
+            "previewLink": "https://rodrigoapassos.github.io/odin-ticTacToe/"
+        },
+        {
+            "imgName": "calculator.png",
+            "info": {
+                "en": {
+                    "projectTitle": "Calculator",
+                    "description": "Basic Calculator. Project made for the Foundations Course."
+                },
+                "pt-BR": {
+                    "projectTitle": "Calculadora",
+                    "description": "Calculadora básica. Projeto feito para o curso de fundações."
+                }
+            },
+            "techs": ["js", "css", "html"],
+            "ghLink": "https://github.com/RodrigoAPassos/odin-calculator",
+            "previewLink": "https://rodrigoapassos.github.io/odin-calculator/"
+        },
+        {
+            "imgName": "rps.png",
+            "info": {
+                "en": {
+                    "projectTitle": "Rock Paper Scissors",
+                    "description": "Classic Rock, Paper, Scissors with an UI inspired in Whatsapp App."
+                },
+                "pt-BR": {
+                    "projectTitle": "Pedra, Papel, Tesoura",
+                    "description": "Clássico jogo de Pedra, Papel, Tesoura. Com uma UI inspirada no Whatsapp."
+                }
+            },
+            "techs": ["js", "css", "html"],
+            "ghLink": "https://github.com/RodrigoAPassos/odin-rps",
+            "previewLink": "https://rodrigoapassos.github.io/odin-rps/"
+        }
+
+    ]
+}
