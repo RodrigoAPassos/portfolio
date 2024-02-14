@@ -36,11 +36,11 @@
             "imgName": "memory-brasileirao-1440.png",
             "info": {
                 "en": {
-                    "projectTitle": "Memory Game - Brasileirão 2023",
+                    "projectTitle": "Memory Game - Brasileirão",
                     "description": "Memory Game - Brasileirão 2023, get points by clicking in all teams with no repeating! The number of teams will increase when you finish, then do it again to a maximun of 50 points! Project made for the React Course."
                 },
                 "pt-BR": {
-                    "projectTitle": "Jogo da Memória - Brasileirão 2023",
+                    "projectTitle": "Jogo da Memória - Brasileirão",
                     "description": "Jogo da Memória - Brasileirão 2023, ganhe pontos clicando em todos os times sem repetir! O número de equipes aumentará quando você terminar, então faça novamente até um máximo 50 pontos! Projeto feito para o Curso React."
                 }
             },
@@ -88,7 +88,7 @@
                     "description": "Generate a basic CV by entering your information with educational and practical experience."
                 },
                 "pt-BR": {
-                    "projectTitle": "App gerador de currículo",
+                    "projectTitle": "App gerador de CV",
                     "description": "Gere um currículo básico inserindo suas informações com experiência educacional e prática."
                 }
             },
@@ -100,11 +100,11 @@
             "imgName": "etch-a-sketch.png",
             "info": {
                 "en": {
-                    "projectTitle": "Notes in the sky: Etch-a-Sketch",
+                    "projectTitle": "Notes in the sky",
                     "description": "Create your pixel art! Define the grid size and paint with black, rainbow or shading pen. Project made for JavaScript Course."
                 },
                 "pt-BR": {
-                    "projectTitle": "Notas no céu: Etch-a-Sketch",
+                    "projectTitle": "Notas no céu",
                     "description": "Crie sua pixel art! Defina o tamanho da grade e pinte com caneta preta, arco-íris ou sombreamento. Projeto feito para curso de JavaScript."
                 }
             },

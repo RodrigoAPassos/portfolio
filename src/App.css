@@ -1,3 +1,10 @@
+:root {
+  /* Font sizes */
+  --title-size: 2rem;
+  --text-size: 1.5rem;
+  --footer-size: 0.8rem;
+}
+
 #root {
   text-align: center;
   display: flex;
@@ -19,22 +26,52 @@
   border: 1px solid #000;
 }
 
-.nav-link.reading {
-  left: 47%;
-  font-weight: 700;
-  font-size: 1.5rem;
-  top: 2rem;
+@media screen and (orientation: portrait){
+  .nav-link.reading {
+    left: 47%;
+    font-weight: 700;
+    font-size: calc(var(--text-size) - 0.5rem);
+    top: 2rem;
+  }
+  
+  .nav-link.not-reading {
+    left: 80%;
+    font-weight: 400;
+    font-size: calc(var(--text-size) - 0.8rem);
+    top: 2.5rem;
+  }
+  
+  .name-logo {
+    font-size: calc(var(--title-size) - 0.5rem);
+  }
+
+  .footer {
+    font-size: calc(var(--footer-size) - 0.2rem);
+  }
 }
 
-.nav-link.not-reading {
-  left: 90%;
-  font-weight: 400;
-  font-size: 1rem;
-  top: 2.5rem;
-}
+@media screen and (orientation: landscape){
+  .nav-link.reading {
+    left: 47%;
+    font-weight: 700;
+    font-size: var(--text-size);
+    top: 2rem;
+  }
+  
+  .nav-link.not-reading {
+    left: 90%;
+    font-weight: 400;
+    font-size: calc(var(--text-size) - 0.5rem);
+    top: 2.5rem;
+  }
+  
+  .name-logo {
+    font-size: var(--title-size);
+  }
 
-.name-logo {
-  font-size: 2rem;
+  .footer {
+    font-size: var(--footer-size);
+  }
 }
 
 .text1 {
@@ -68,7 +105,6 @@
 .nav-link {
   text-decoration: none;
   color: white;
-  font-size: 1.5rem;
   transition-duration: 0.5s;
   position: absolute;
 }
@@ -95,7 +131,6 @@
   height: 5vh;
   padding: 10px;
   color: white;
-  font-size: 0.8rem;
 }
 
 .footer-text {

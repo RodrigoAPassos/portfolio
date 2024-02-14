@@ -8,14 +8,29 @@
     height: 100%;
 }
 
-.details__title {
-    font-size: 2rem;
+@media screen and (orientation: portrait){
+    .details__title {
+        font-size: calc(var(--title-size) - 0.8rem);
+    }
+
+    .phone-number, .email {
+        font-size: calc(var(--text-size) - 0.5rem);
+    }
+}
+
+@media screen and (orientation: landscape){
+    .details__title {
+        font-size: var(--title-size);
+    }
+
+    .phone-number, .email {
+        font-size: var(--text-size);
+    }
 }
 
 .details-info {
     display: flex;
     flex-direction: column;
-    width: 50%;
 }
 
 .phone-info, .email-info {
